@@ -1,0 +1,16 @@
+MANUAL_INTEREST_VIDEO_TEMPLATES: dict[str, dict[str, str]] = {
+    "Film & Animation": {"cat_id": "1",  "tags": "film,animation,movie,cinema,cartoon,short film,animated"},
+    "Music":            {"cat_id": "10", "tags": "music,song,lyrics,album,playlist,artist,band,singer,beats"},
+    "Pets & Animals":   {"cat_id": "15", "tags": "pets,animals,dogs,cats,wildlife,nature,cute,funny animals"},
+    "Sports":           {"cat_id": "17", "tags": "sports,football,basketball,soccer,tennis,match,game,athlete"},
+    "Travel & Events":  {"cat_id": "19", "tags": "travel,trip,adventure,tourism,places,world,vacation,explore"},
+    "Gaming":           {"cat_id": "20", "tags": "gaming,game,gameplay,stream,walkthrough,review,esports,rpg"},
+    "People & Blogs":   {"cat_id": "22", "tags": "vlog,blog,daily,life,people,lifestyle,stories,personal"},
+    "Comedy":           {"cat_id": "23", "tags": "comedy,funny,humor,jokes,sketch,parody,laughs,stand up"},
+    "Entertainment":    {"cat_id": "24", "tags": "entertainment,show,celebrity,interview,highlights,pop culture"},
+    "News & Politics":  {"cat_id": "25", "tags": "news,politics,government,world,current events,analysis,economy"},
+    "How-to & Style":   {"cat_id": "26", "tags": "how to,style,tutorial,diy,fashion,beauty,tips,recipe,craft"},
+    "Education":        {"cat_id": "27", "tags": "education,learning,lecture,study,school,university,course"},
+    "Science & Technology": {"cat_id": "28", "tags": "science,technology,programming,coding,engineering,research,ai,space"},
+    "Anime/Animation":  {"cat_id": "31", "tags": "anime,animation,manga,japanese,series,episode,fantasy,isekai"},
+}

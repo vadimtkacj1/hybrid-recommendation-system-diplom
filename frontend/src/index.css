@@ -1,0 +1,33 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  :root {
+    --background: 24 25 28;
+    --foreground: 230 228 224;
+    --muted: 92 88 83;
+    --muted-foreground: 138 133 126;
+    --accent: 251 191 36;
+    --accent-foreground: 24 25 28;
+    --border: 56 54 50;
+    --card: 32 33 36;
+    --ring: 251 191 36;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-[rgb(var(--background))] text-[rgb(var(--foreground))] antialiased;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
