@@ -1,4 +1,4 @@
-# Social Search — hybrid people recommender
+# Social Search: hybrid people recommender
 
 Finds people with similar interests from their YouTube watch history. A user connects YouTube (Google OAuth) or uploads a Google Takeout export, the system builds an interest profile, ranks other users by a hybrid similarity score, explains every match, and lets matched people talk in real-time chat.
 
